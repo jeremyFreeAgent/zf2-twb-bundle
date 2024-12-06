@@ -21,20 +21,20 @@
         "twitter/bootstrap": "Twitter bootstrap assets"
     },
     "require": {
-        "php": ">=5.3.2",
-        "zendframework/zend-config": "^2.3 || ^3.0",
-        "zendframework/zend-escaper": "^2.3",
-        "zendframework/zend-form": "^2.3",
-        "zendframework/zend-i18n": "^2.3",
-        "zendframework/zend-loader": "^2.3",
-        "zendframework/zend-log": "^2.3",
-        "zendframework/zend-modulemanager": "^2.3",
-        "zendframework/zend-mvc": "^2.3 || ^3.0",
-        "zendframework/zend-serializer": "^2.3",
-        "zendframework/zend-servicemanager": "^2.3 || ^3.1",
-        "zendframework/zend-stdlib": "^2.3 || ^3.1",
-        "zendframework/zend-view": "^2.3",
-        "zendframework/zend-navigation": "^2.9"
+        "php": "~8.1",
+        "laminas/laminas-config": "^2.3 || ^3.0",
+        "laminas/laminas-escaper": "^2.3",
+        "laminas/laminas-form": "^3.2",
+        "laminas/laminas-i18n": "^2.3",
+        "laminas/laminas-loader": "^2.3",
+        "laminas/laminas-log": "^2.3",
+        "laminas/laminas-modulemanager": "^2.3",
+        "laminas/laminas-mvc": "^2.3 || ^3.0",
+        "laminas/laminas-serializer": "^2.3",
+        "laminas/laminas-servicemanager": "^2.3 || ^3.1",
+        "laminas/laminas-stdlib": "^2.3 || ^3.1",
+        "laminas/laminas-view": "^2.3",
+        "laminas/laminas-navigation": "^2.9"
 
     },
     "require-dev": {

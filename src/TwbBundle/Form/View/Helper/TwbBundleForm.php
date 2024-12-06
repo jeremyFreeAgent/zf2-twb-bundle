@@ -2,9 +2,9 @@
 
 namespace TwbBundle\Form\View\Helper;
 
-use Zend\Form\View\Helper\Form;
-use Zend\Form\FormInterface;
-use Zend\Form\FieldsetInterface;
+use Laminas\Form\View\Helper\Form;
+use Laminas\Form\FormInterface;
+use Laminas\Form\FieldsetInterface;
 
 class TwbBundleForm extends Form
 {
@@ -53,7 +53,7 @@ class TwbBundleForm extends Form
      * @param string $sFormLayout
      * @return string
      */
-    public function render(FormInterface $oForm, $sFormLayout = self::LAYOUT_HORIZONTAL)
+    public function render(FormInterface $oForm, $sFormLayout = self::LAYOUT_HORIZONTAL): string
     {
         //Prepare form if needed
         if (method_exists($oForm, 'prepare')) {
@@ -179,7 +179,7 @@ class TwbBundleForm extends Form
      * @param null|FormInterface $form
      * @return string
      */
-    public function openTag(FormInterface $form = null)
+    public function openTag(FormInterface $form = null): string
     {
         $this->setFormClass($form, $this->formLayout);
         return parent::openTag($form);

@@ -2,8 +2,8 @@
 
 namespace TwbBundle\Form\View\Helper;
 
-use Zend\Form\View\Helper\FormMultiCheckbox;
-use Zend\Form\ElementInterface;
+use Laminas\Form\View\Helper\FormMultiCheckbox;
+use Laminas\Form\ElementInterface;
 
 class TwbBundleFormMultiCheckbox extends FormMultiCheckbox
 {
@@ -12,7 +12,7 @@ class TwbBundleFormMultiCheckbox extends FormMultiCheckbox
      * @param ElementInterface $oElement
      * @return string
      */
-    public function render(ElementInterface $oElement)
+    public function render(ElementInterface $oElement): string
     {
         $aElementOptions = $oElement->getOptions();
 

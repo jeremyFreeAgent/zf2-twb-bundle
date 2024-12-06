@@ -5,9 +5,9 @@ namespace TwbBundle\Form\View\Helper;
 use DomainException;
 use LogicException;
 use Exception;
-use Zend\Form\LabelAwareInterface;
-use Zend\Form\View\Helper\FormButton;
-use Zend\Form\ElementInterface;
+use Laminas\Form\LabelAwareInterface;
+use Laminas\Form\View\Helper\FormButton;
+use Laminas\Form\ElementInterface;
 
 class TwbBundleFormButton extends FormButton
 {
@@ -50,7 +50,7 @@ class TwbBundleFormButton extends FormButton
      * @throws Exception
      * @return string
      */
-    public function render(ElementInterface $oElement, $sButtonContent = null)
+    public function render(ElementInterface $oElement, $sButtonContent = null): string
     {
         if ($sClass = $oElement->getAttribute('class')) {
             if (!preg_match('/(\s|^)btn(\s|$)/', $sClass)) {
