@@ -102,12 +102,12 @@ return array(
             'form_element' => 'TwbBundle\Form\View\Helper\Factory\TwbBundleFormElementFactory',
             'formelement' => 'TwbBundle\Form\View\Helper\Factory\TwbBundleFormElementFactory',
             'TwbBundle\Form\View\Helper\TwbBundleFormElement' => 'TwbBundle\Form\View\Helper\Factory\TwbBundleFormElementFactory',
-            'zendviewhelpernavigation'  => 'TwbBundle\Navigation\View\NavigationHelperFactory',
+            // 'zendviewhelpernavigation'  => 'TwbBundle\Navigation\View\NavigationHelperFactory',
         ),
         'aliases' => array (
             'form_element' => 'TwbBundle\Form\View\Helper\TwbBundleFormElement',
-            'navigation' => 'zendviewhelpernavigation',
-            'Navigation' => 'zendviewhelpernavigation',
+            // 'navigation' => 'zendviewhelpernavigation',
+            // 'Navigation' => 'zendviewhelpernavigation',
         ),
     ),
 );
